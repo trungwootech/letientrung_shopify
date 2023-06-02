@@ -3,7 +3,10 @@
     <div>
       {% if article.image %}
         <img src="{{ article.image | img_url: 'medium' }}" alt="{{ aricle.image.alt }}">
+      {% else %}
+        {{ 'image' | placeholder_svg_tag: 'w-20 ' }}
       {% endif %}
+      <h1>{{ article.title }}</h1>
     </div>
   {% endfor %}
 {% endpaginate %}
