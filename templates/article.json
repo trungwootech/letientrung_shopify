@@ -13,6 +13,11 @@
           "settings": {
           }
         },
+        "article_published_date": {
+          "type": "article_published_date",
+          "settings": {
+          }
+        },
         "author": {
           "type": "article_author",
           "settings": {
@@ -22,19 +27,14 @@
           "type": "featured_image",
           "settings": {
           }
-        },
-        "article_published_date": {
-          "type": "article_published_date",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "title",
         "content",
+        "article_published_date",
         "author",
-        "thumbnail",
-        "article_published_date"
+        "thumbnail"
       ],
       "settings": {
         "enable_author": true,
