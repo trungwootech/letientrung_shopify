@@ -8,6 +8,11 @@
           "settings": {
           }
         },
+        "author": {
+          "type": "article_author",
+          "settings": {
+          }
+        },
         "article_published_date": {
           "type": "article_published_date",
           "settings": {
@@ -15,11 +20,6 @@
         },
         "thumbnail": {
           "type": "featured_image",
-          "settings": {
-          }
-        },
-        "author": {
-          "type": "article_author",
           "settings": {
           }
         },
@@ -31,9 +31,9 @@
       },
       "block_order": [
         "title",
+        "author",
         "article_published_date",
         "thumbnail",
-        "author",
         "content"
       ],
       "settings": {
