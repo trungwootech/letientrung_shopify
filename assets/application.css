@@ -721,6 +721,10 @@ video {
   resize: none;
 }
 
+.list-decimal {
+  list-style-type: decimal;
+}
+
 .flex-row {
   flex-direction: row;
 }
