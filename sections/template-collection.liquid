@@ -1,4 +1,4 @@
-{% paginate collection.products by section.settings.number_of_product %}
+{% paginate collection.products by section.settings.number_of_products_per_page %}
     <h1 class="text-3xl text-center">{{ collection.title }}</h1>
     <div class="max-w-6xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -17,13 +17,13 @@
         "name": "Template Collection",
         "settings": [
             {
-                "type": "range",
-                "id": "number_of_product",
-                "label": "Products per page",
+                "type": "number",
+                "id": "number_of_products_per_page",
+                "label": "Number of products per page",
                 "min": 1,
                 "max": 15,
-                "step": 2,
-                "default": 3
+                "step": 1,
+                "default": 6
             }
         ]
     }
