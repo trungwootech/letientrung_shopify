@@ -1,8 +1,19 @@
 {
-    "sections": {
-        "template" : {
-            "type": "template-product"
-        }
+  "sections": {
+    "template": {
+      "type": "template-product",
+      "settings": {
+      }
     },
-    "order": ["template"]
+    "28592cb5-ad6c-4dca-a0fd-ed6b0d5aa7c0": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Product"
+      }
+    }
+  },
+  "order": [
+    "template",
+    "28592cb5-ad6c-4dca-a0fd-ed6b0d5aa7c0"
+  ]
 }
