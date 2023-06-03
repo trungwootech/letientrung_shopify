@@ -15,10 +15,17 @@
         "featured_collection": "",
         "number_of_products_to_show": 4
       }
+    },
+    "5b89dbb3-1a57-4845-bf12-780d04cf52a4": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us"
+      }
     }
   },
   "order": [
     "featured-collection",
-    "576f9105-62e5-4da7-a4db-3c41471393fd"
+    "576f9105-62e5-4da7-a4db-3c41471393fd",
+    "5b89dbb3-1a57-4845-bf12-780d04cf52a4"
   ]
 }
