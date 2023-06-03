@@ -1,7 +1,10 @@
 {
     "sections": {
         "template": {
-            "type": "template-collection"
+            "type": "template-collection",
+            "settings": {
+                "number_of_product": 3
+            }
         }
     },
     "order": ["template"]
