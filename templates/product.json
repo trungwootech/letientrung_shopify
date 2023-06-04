@@ -25,7 +25,7 @@
           "type": "checkout_buttons"
         }
       },
-      "block_order": ["vendor", "title", "price", "variant_selector", "quantity", "description", "checkout_buttons"],
+      "block_order": ["vendor", "title", "price", "variant-selector", "quantity", "description", "checkout_buttons"],
       "settings": {
       }
     },
