@@ -52,7 +52,7 @@
                 </div>
             {% endform %}
         </div>
-        {% if shop.customer_accounts_enabled %}
+        {% if !shop.customer_accounts_enabled %}
             <hr class="my-12">
             Guest checkout is allowed
         {% endif %}
