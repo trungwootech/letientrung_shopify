@@ -2,6 +2,30 @@
   "sections": {
     "template": {
       "type": "template-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor"
+        },
+        "price": {
+          "type": "price"
+        },
+        "title": {
+          "type": "title"
+        },
+        "variant-selector": {
+          "type": "variant_selector"
+        },
+        "quantity": {
+          "type": "quantity"
+        },
+        "description": {
+          "type": "description"
+        },
+        "checkout_buttons": {
+          "type": "checkout_buttons"
+        }
+      },
+      "block_order": ["vendor", "title", "price", "variant_selector", "quantity", "description", "checkout_buttons"],
       "settings": {
       }
     },
